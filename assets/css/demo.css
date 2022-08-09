@@ -1,0 +1,131 @@
+body{
+    background-color: #343a40;
+  }
+  .a{
+    text-decoration: none;
+  }
+  .header{
+    background-color: #343a40;
+  }
+  .color{
+    color: #d9a410d9;
+  }
+  .bg-color{
+    background-color: #d9a410d9;
+  }
+ 
+
+  
+  .card{
+    border-color: #d9a410d9;;
+  }
+  .height{
+    top:20px
+  }
+  .icon-size{
+    font-size: x-large;
+  }
+  .bg-image{
+    background-image: url('/assets/Images/banner2.png');
+  
+  }
+  .box{
+    border: 3px solid #d9a410d9;
+  }
+  .centered {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .centered2 {
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bg-overlay {
+    background-image:  url("../images/banner4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    /* height: 450px; */
+    padding-top: 50px;
+  }
+  
+  .footer {
+      /* position: fixed; */
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+   }
+   .item{
+    display: inline-block;
+    padding-left: 50px;
+   }
+   @media only screen and (min-width: 768px) and (max-width: 991px) {
+     
+    }
+    @media only screen and (max-width: 767px) {
+      .centered {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        width:300px;
+        transform: translate(-50%, -50%);
+      }
+      .centered2 {
+        position: absolute;
+        top: 65%;
+        left: 55%;
+        width:300px;
+        transform: translate(-50%, -50%);
+      }
+      .logo {
+        width: 20%;
+    }
+    }
+    .logo{
+        width: 50%;
+      }
+      .bg-color{
+        background-color: #343a40;
+      }
+      .navbar-nav{
+        border: 2px solid #d9a410d9;
+      }
+      .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .navbar-light .navbar-toggler{
+        border-color: #d9a410d9;
+      }
+      .navbar-light .navbar-nav .nav-link.active,
+      .navbar-light .navbar-nav .nav-link:hover {
+        background: #d9a410d9;
+        color: black;
+      }
+      .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border: 3px solid #d9a410d9;
+        border-radius: 100%;
+       
+      }
+      .carousel-indicators li:hover {
+        background-color: #d9a410d9 ;
+      }
+      .logo1{
+        max-width: 10%;
+      }
